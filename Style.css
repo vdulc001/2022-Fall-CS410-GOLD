@@ -22,4 +22,49 @@ body{
 
 .team{
     display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member{
+    background-color: coral;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color:blanchedalmond;
+    position: relative;
+}
+
+.team .team_member h3{
+    color:aquamarine;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color:cornflowerblue;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px;
+}
+
+.team .team_member .team_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+}
+
+.team .team_member .team_img img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
 }
