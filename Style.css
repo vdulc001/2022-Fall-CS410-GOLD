@@ -8,3 +8,13 @@ body{
     background-color: gainsboro;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.wrapper{
+     margin-top: 10%;
+}
+
+.wrapper h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+}
