@@ -21,3 +21,26 @@
   padding-top: 2%;
   filter: invert(1);
 }
+
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.nav-area li{
+  display: inline-block;
+}
+
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
