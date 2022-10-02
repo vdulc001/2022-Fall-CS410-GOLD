@@ -1,6 +1,12 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+  width: 1170px;
+  margin: auto;
 }
 
 .header {
