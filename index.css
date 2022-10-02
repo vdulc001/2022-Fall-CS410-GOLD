@@ -1,15 +1,67 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+  width: 1170px;
+  margin: auto;
 }
 
 .header {
   min-height: 100vh;
   width: 100%;
   /* background: rgba(4, 9, 30, 0.7); */
-  background-image: url("https://raw.githubusercontent.com/vdulc001/2022-Fall-CS410-GOLD/gh-pages/images/whitebookstore.png");
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("https://raw.githubusercontent.com/vdulc001/2022-Fall-CS410-GOLD/gh-pages/images/whitebookstore.png");
   /* background-image: linear-gradient(rgba(4, 9, 30, 0.7)); */
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   position: relative;
+}
+
+.logo img{
+  width: 50px;
+  float: left;
+  padding-left: 5%;
+  padding-top: 2%;
+  filter: invert(1);
+}
+
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.nav-area li{
+  display: inline-block;
+}
+
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+.welcome-text{
+  position: absolute;
+  margin: 20% 30%;
+  text-align: center;
+  font-size: 80px;
+}
+
+.welcome-text h2{
+  text-align: center;
+  color: rgb(10, 10, 10);
+  text-transform: uppercase;
+  font-size: 60px;
 }
