@@ -1,1 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
+.wrapper{
+  width: 1170px;
+  margin: auto;
+}
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url("https://raw.githubusercontent.com/vdulc001/2022-Fall-CS410-GOLD/gh-pages/images/whitebookstore.png");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.logo img{
+  width: 400px;
+}
