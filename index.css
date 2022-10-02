@@ -44,3 +44,17 @@
   background: #fff;
   color: #333;
 }
+
+.welcome-text{
+  position: absolute;
+  margin: 20% 30%;
+  text-align: center;
+  font-size: 80px;
+}
+
+.welcome-text h2{
+  text-align: center;
+  color: rgb(10, 10, 10);
+  text-transform: uppercase;
+  font-size: 60px;
+}
