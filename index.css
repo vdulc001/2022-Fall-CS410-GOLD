@@ -13,3 +13,11 @@
   background-size: cover;
   position: relative;
 }
+
+.logo img{
+  width: 150px;
+  float: left;
+  padding-left: 5%;
+  padding-top: 2%;
+  filter: invert(1);
+}
