@@ -57,6 +57,28 @@ body {
   color: #333;
 }
 
+/*--dropdown--*/
+.drop-down-1
+{
+  display: none;
+}
+
+.nav-area ul li:hover .drop-down-1
+{
+   display: block;
+   position: absolute;
+   background: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+
+.nav-area ul li:hover .drop-down-1 ul
+{
+  display: block;
+  margin: 10px;
+}
+
 .welcome-text{
   width: 90%;
   color: #fff;
