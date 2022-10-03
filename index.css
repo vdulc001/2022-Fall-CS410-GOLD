@@ -76,3 +76,17 @@ body {
   font-size: 24px;
   color: rgb(190, 219, 238);
 }
+
+/*--cta code on bottom with links to odu --*/
+
+.cta{
+  width: 80%;
+  margin: auto;
+  text-aligh: center;
+  padding-top: 30px;
+}
+
+p{
+  color: #777;
+  font-size: 14px;
+}
