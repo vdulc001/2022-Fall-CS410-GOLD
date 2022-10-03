@@ -68,8 +68,11 @@ body {
 }
 
 .welcome-text h2{
-  text-align: center;
+  font-size: 62px;
+}
+
+.welcome-text p{
+  margin: 10px 0 40px;
+  font-size: 14px;
   color: rgb(10, 10, 10);
-  text-transform: uppercase;
-  font-size: 60px;
 }
