@@ -21,7 +21,7 @@ body{
   font-size: 72px;
   margin-bottom: 25px;
   text-align: center;
-  color: rgb(233, 130, 45);
+  color: rgb(211, 84, 0);
   padding-bottom: 30px;
 }
 
@@ -41,10 +41,10 @@ body{
   background: rgb(85, 73, 73);
   margin: 5px;
   margin-bottom: 50px;
-  width: 300px;
-  padding: 20px;
+  width: 250px;
+  padding: 10px;
   line-height: 20px;
-  color: #bb5151;  
+  color: #c9c9c9;  
   position: relative;
 }
 
@@ -55,7 +55,7 @@ body{
   letter-spacing: 2px;
   margin: 15px 0 0px;*/
 
-  color: #a5a749;
+  color: #ffffff;
   font-size: 26px;
   margin-top: 50px;
 }
@@ -95,7 +95,7 @@ body{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: rgb(75, 190, 104);
+  background: rgb(211, 84, 0);
 }
 
 .team .team_member .team_img img{
