@@ -3,3 +3,14 @@
   padding: 0px;
   font-family: 'Montserrat', sans-serif;
 }
+
+
+/*--cta code on bottom with links to odu --*/
+
+.cta{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
